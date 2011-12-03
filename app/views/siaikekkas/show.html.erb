@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Taikaimei:</b>
+  <%= @siaikekka.taikaimei %>
+</p>
+
+<p>
+  <b>Hiduke:</b>
+  <%= @siaikekka.hiduke %>
+</p>
+
+<p>
+  <b>Taisenaite:</b>
+  <%= @siaikekka.taisenaite %>
+</p>
+
+<p>
+  <b>Score:</b>
+  <%= @siaikekka.score %>
+</p>
+
+<p>
+  <b>Grand:</b>
+  <%= @siaikekka.grand %>
+</p>
+
+
+<%= link_to 'Edit', edit_siaikekka_path(@siaikekka) %> |
+<%= link_to 'Back', siaikekkas_path %>

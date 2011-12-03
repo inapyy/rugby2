@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  taikaimei: MyString
+  hiduke: MyString
+  taisenaite: MyString
+  score: MyString
+  grand: MyString
+
+two:
+  taikaimei: MyString
+  hiduke: MyString
+  taisenaite: MyString
+  score: MyString
+  grand: MyString
